@@ -7,7 +7,7 @@ AS A manager at an internet retail company. I WANT a back end for my e-commerce 
 To use app run $ npm run seed and $ node server.js in terminal then use insomnia core to edit, create or delete tables in application.
 
 ## URL of gitHub Repo:
-
+https://github.com/PurviMec/retail-backend-app.git
 
 ## ScreenShot!
 <img width="727" alt="Screen Shot 2021-11-21 at 1 01 22 PM" src="https://user-images.githubusercontent.com/86253830/142773644-2023ac3e-a1d5-4fe5-9e21-b8c370ffc2c6.png">
