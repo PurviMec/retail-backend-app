@@ -15,7 +15,7 @@ To use app run $ npm run seed and $ node server.js in terminal then use insomnia
 ## ScreenShot!
 
 ## Video
-
+https://watch.screencastify.com/v/ptPYKNmffm4DSPYJd5f4
 
 ## Made with help of 
 - sequelize
