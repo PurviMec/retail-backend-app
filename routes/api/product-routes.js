@@ -35,14 +35,18 @@ router.get('/:id', (req, res) => {
     },
     include: [
       {
-        model: Product,
-        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+        model: Category,
+        attributes: ['id', 'category_name']
+      },
+      {
+        model: Tag,
+        attributes: ['id','tag_name']
       }
     ]
   })
     .then(dbProductData => {
       if (!dbProductData){
-        res.status(404).json({ message: 'No user found with this id' });
+        res.status(404).json({ message: 'No product found with this id' });
         return;
       }
       res.json(dbProductData);
